@@ -177,18 +177,27 @@ table{
     width: 100vw;
     height: 60%;
     margin: auto;
+    align-items: center;
     justify-content: center;
 }
 .aboutmeflexphoto{
     border-radius: 20px;
-    height: auto;
-    width: 45vw;
+    height: 40vh;
+    width: auto;
 }
 .aboutmeflexdescription{
+    height: 40VH;
     width: 45vw;
     padding: 5px;
+    overflow-y: scroll;
 }
-
+.aboutmecontent{
+    text-indent: .5in;
+    text-align: left;
+    font-size: auto;
+    margin: 0;
+    padding-left: 5px;
+}
 
 .cvlink{
     position: relative;
@@ -393,4 +402,5 @@ li{list-style-type: none;}
         font-size: 16px;
         margin: 0;
     }
+
 }

@@ -16,6 +16,13 @@ body{
     margin: 10px;
     overflow: hidden;
 }
+a{
+    height: fit-content;
+    width: fit-content;
+}
+h2{
+    margin: auto;
+}
 
                                                 /*PagerHeader*/
 .page-header{
@@ -64,12 +71,21 @@ body{
     grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: auto;
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
-
 .workgrid_item{
     background-color:lightgrey;
     padding: 20px;
+}
+.itemdescription{
+    margin: 0;
+}
+.project1icon{
+    left: 0;
+}
+.pokedex{
+    height: 125px;
+    width: auto;
 }
 
                                                /*Page Footer*/
@@ -371,6 +387,7 @@ li{list-style-type: none;}
     h1 {
       font-size: 22px;
     }
+
     /*ABOUT ME PAGE ELEMENTS*/
     .aboutmeflexparent{
         display: flex;

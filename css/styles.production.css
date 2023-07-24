@@ -95,11 +95,8 @@ h2{
     border-radius: 15px;
     padding: 5px;
 }
-.project1icon{
-    left: 0;
-}
 .pokedex{
-    height: 125px;
+    height: 150px;
     width: auto;
 }
 
@@ -279,34 +276,6 @@ li{list-style-type: none;}
 
                                          /*Keyframes and animations*/
 
-
-@-webkit-keyframes rotation {
-    from{
-        -webkit-transform: rotate(15deg);
-                transform: rotate(15deg);
-    }
-
-    to{
-        -webkit-transform: rotate(-15deg);
-                transform: rotate(-15deg);
-    }
-}
-
-
-@keyframes rotation {
-    from{
-        -webkit-transform: rotate(15deg);
-                transform: rotate(15deg);
-    }
-
-    to{
-        -webkit-transform: rotate(-15deg);
-                transform: rotate(-15deg);
-    }
-}
-
-
-
                                           /*Media Queries*/
 
 @media all and (min-width: 320px) and (max-width: 480px){
@@ -383,7 +352,7 @@ li{list-style-type: none;}
     /*WORK PAGE ELEMENTS*/
     .workgridcontainer{
         overflow-y: auto;
-        max-height: 85vh;
+        max-height: 90vh;
         padding-bottom: 5px;
     }
     .workgrid {
@@ -393,16 +362,19 @@ li{list-style-type: none;}
       padding-bottom: 20px;
     }
     .workgrid_item{
-        width: 75vw;
-    }
-    .workgrid__item:last-child {
-      grid-column: auto / auto;
-      grid-row: auto / auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:lightgrey;
+        width: 85vw;
+        height: 350px;
+        border-radius: 15px;
     }
     h1 {
       font-size: 22px;
     }
-
+    
     /*ABOUT ME PAGE ELEMENTS*/
     .aboutmeflexparent{
         display: flex;
@@ -434,5 +406,4 @@ li{list-style-type: none;}
         font-size: 16px;
         margin: 0;
     }
-
 }

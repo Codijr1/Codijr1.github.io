@@ -370,11 +370,13 @@ li{list-style-type: none;}
         width: 85vw;
         height: 350px;
         border-radius: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     h1 {
       font-size: 22px;
     }
-    
+
     /*ABOUT ME PAGE ELEMENTS*/
     .aboutmeflexparent{
         display: flex;

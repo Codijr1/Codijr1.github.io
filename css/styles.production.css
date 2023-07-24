@@ -21,7 +21,7 @@ a{
     width: fit-content;
 }
 h2{
-    margin: auto;
+    margin: 0;
 }
 
                                                 /*PagerHeader*/
@@ -65,20 +65,35 @@ h2{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 200px 20px 200px 200px 200px;
+    -ms-grid-columns: 100px 20px 200px 200px 200px;
     grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: auto;
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
+    height: auto;
+}
+.workgridcontainer{
+    height: 98vh;
 }
 .workgrid_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color:lightgrey;
-    padding: 20px;
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
 }
 .itemdescription{
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
     margin: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 5px;
 }
 .project1icon{
     left: 0;
